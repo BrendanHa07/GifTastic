@@ -1,0 +1,44 @@
+.jumbotron {
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	background-color: transparent;
+
+}
+
+body {
+	text-align: center;
+}
+
+#gif-display {
+	font-family: 'Wendy One', sans-serif;
+
+}
+
+#buttons-view {
+	text-align: center;
+}
+
+.food {
+	background-color: #46af72;
+	font-family: 'Wendy One', sans-serif;
+}
+#food-form {
+	margin-top: 35px;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Wendy One', sans-serif;
+}
+
+#add-food {
+	background-color: #46af72;
+}
+
+.foodGif {
+  margin: 20px 20px 0px 0px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px 15px;
+  position: relative;
+  left: -15px;
+  background-color: #46af72;;
+}

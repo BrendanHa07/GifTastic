@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Wendy+One" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>GifTastic: Food Edition</h1>
+	</div>
+	<!-- New buttons will be added here -->
+	<div id="buttons-view"></div>
+
+	<form id="food-form">
+		<div class="form-group">
+			<label for="food-input">What Would You Like to Eat?</label>
+			<input type="text" id="food-input" class="form-control"><br>
+
+			<!-- This button will cause new food buttons to be added -->
+			<input id="add-food" type="submit" value="Feed Me!" class="btn btn-default">
+		</div>
+	</form>
+
+	<div id="gif-display"></div>
+	
+</div>
+
+
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

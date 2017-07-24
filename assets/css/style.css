@@ -2,11 +2,15 @@
 	text-align: center;
 	font-family: 'Bangers', cursive;
 	background-color: transparent;
+	margin-bottom: 0px;
+	color: #d8e82e;
 
 }
 
 body {
 	text-align: center;
+	background-color: #3e78dd;
+
 }
 
 #gif-display {

@@ -72,8 +72,6 @@ function animateGifs() {
 
 }
 
-
-
 $(document).ready(function() {
 	renderButtons();
 })

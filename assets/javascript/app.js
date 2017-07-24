@@ -1,4 +1,4 @@
-var foods = ["Pizza", "Hot Dogs", "Noodles", "Tacos", "Ice Cream", "Beer", "Bacon", "Fried Chicken", "BBQ", "Dim Sum"];
+var foods = ["Pizza", "Hot Dogs", "Noodles", "Tacos", "Ice Cream", "Beer", "Bacon", "Fried Chicken", "Korean BBQ", "Dim Sum"];
 
 function renderButtons() {
 	$("#buttons-view").empty();

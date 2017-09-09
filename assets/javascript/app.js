@@ -26,7 +26,7 @@ $("#add-food").on("click", function() {
 
 function getGifs() {
 	var foodName = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + foodName + "&api_key=dc6zaTOxFJmzC&limit=10&rating=pg";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + foodName + "&api_key=dc6zaTOxFJmzC&limit=10&rating=pg";
 
 	$.ajax({
 		url: queryURL,
@@ -43,6 +43,7 @@ function getGifs() {
 			foodDiv.addClass("foodGif");
 			var newRating = $("<h2>").html("Rating: " + results[i].rating);
 			foodDiv.append(newRating);
+			console.log(newRating);
 
 			var foodImage = $("<img>");
 			foodImage.attr("src", results[i].images.fixed_height.url);
